@@ -1,14 +1,11 @@
-
 body {
     font-family: "Segoe UI", sans-serif;
-    background: #f4f5fa;
-    color: #333;
+    background: #f8f9fa;
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #8e2de2, #ff416c);
+    background: linear-gradient(to right, #0d6efd, #6610f2);
     position: relative;
     display: flex;
     align-items: center;
@@ -18,7 +15,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0,0,0,0.4);
 }
 
 .hero-content {
@@ -26,7 +23,6 @@ body {
     z-index: 2;
 }
 
-/* Sections */
 .section {
     margin-top: 60px;
 }
@@ -34,24 +30,18 @@ body {
 .section-title {
     font-weight: bold;
     margin-bottom: 20px;
-    color: #ff416c; /* Attractive Pink */
+    color: #0d6efd;
 }
 
-/* Cards */
 .card {
-    border-radius: 18px;
-    border: none;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    transform: translateY(-5px);
 }
 
-/* Contact */
 #contact {
     margin-top: 50px;
-    background: linear-gradient(135deg, #8e2de2, #ff416c);
 }
